@@ -4,46 +4,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="css/main.css">
     <title>min portofølje</title>
 </head>
 
 <body>
 
-    <style>
-        body{
-            background-image: url( images/arnold.webp);
-             background-size: cover;
-             background-repeat: no-repeat;
-        }
-    </style>
+    <div class="meny">
+        <a href="index.html" class="navlink"><i class="fa-solid fa-house"></i> Home</a>
+        <a href="aboutme.html" class="navlink"><i class="fa-solid fa-user"></i> Om meg</a>
+        <a href="kontaktmeg.html" class="navlink"><i class="fa-solid fa-phone"></i> Kontakt Meg</a>
+        <a href="https://github.com/hashas07" class="navlink"><i class="fa-brands fa-github"></i> Github</a>
+    </div>
+
     <h1> min portofølje</h1>
-    <div class="subjectcontainer">
-        <div class="subjectbox">
-            <img src="images/arnold.webp" alt="">
-            <h3>
-                teknologiforståelse
-            </h3>
-
-
+    <div class="pictureContainer">
+        <div class="subjectcontainer">
+            <a href="IM/teknologi.html">
+                <div class="subjectbox">
+                    <h3>teknologiforståelse</h3>
+                    <img src="images/teknologi.jpg" alt="">
+                </div>
+            </a>
+            <a href="IM/koding.html">
+                <div class="subjectbox" id="middelbox">
+                    <h3>konseptutvikling og programering</h3>
+                    <img src="images/koding.jpg" alt="">
+                </div>
+            </a>
+            <a href="IM/produksjon.html">
+                <div class="subjectbox">
+                    <h3>produksjon og historiefortelling</h3>
+                    <img src="images/produksjon og historiefortelling.jpg" alt="">
+                </div>
+            </a>
 
         </div>
-        <div class="subjectbox" id="middelbox">
-            <img src="images/arnold.webp" alt="">
-        </div>
-        <div class="subjectbox">
-            <img src="images/arnold.webp" alt="">
-        </div>
-        <div class="subjectbox">
+
+        <!--mellomrom mellom footer og header/meny-->
+        <div class="space"></div>
+        <!--footer-->
+        <div class="bottomFooter">
+            <p |>Author: Hassan Deq Hassan</p>
+            <p><a href="mailto:e-hashas@iskule.no">e-hashas@iskule.no</a></p>
+            <a href="aboutme.html" class="rightFooter">Mer om meg</a>
+            <p></p>
+            <a href="kontaktmeg.html" class="rightFooter">Kontakt meg</a>
         </div>
 
-        <h3>
-            teknologiforståelse
-        </h3>
-
-        <div  class="button">
-            klikk her
-        </div>
 </body>
 
 </html>

@@ -1,3 +1,24 @@
+
+body {
+    background-color: lightblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.meny {
+    background-color: darkgrey;
+    padding: 40px;
+    border-radius: 8px;
+}
+.navlink {
+    color: black;
+    margin: 60px;
+    text-decoration: none;
+}
+
+.navlink:hover {
+    color: darkred;
+}
+
 h1 {
     color: darkblue;
 }
@@ -5,25 +26,52 @@ h1 {
 img {
     width: 250px;
 }
+
+.pictureContainer {
+    text-decoration: none;
+    color: white;
+}
+
 .subjectcontainer{
     display: grid;
     grid-template-columns: auto auto auto;
 }
-    
+ .subjectcontainer a{
+    text-decoration: none;
+
+ }
 
 
 .subjectbox {
-     border: 2px solid green;
+    text-decoration: none; 
+    color: black;
 }
 
 #middelbox {
-    border: 2px solid yellow;
+    
 }
-.button{
-    background-color: aqua;
-    width:100px ;
-    padding: 20px;
-    border-radius: 10px;
-    text-align: 30px;
 
+.space {
+    min-height: 800px;
 }
+
+.bottomFooter {
+    background-color: darkgray;
+    border-radius: 8px;
+    color: black;
+    padding: 18px;
+    text-align: center;
+}
+
+.rightFooter {
+    display: flex;
+    text-align: right;
+    color: black;
+    text-decoration: none;
+}
+
+.Contactinfo {
+    color: darkgray;
+}
+
+
